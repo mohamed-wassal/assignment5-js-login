@@ -1,0 +1,48 @@
+.main-bg{
+
+    background-color: #24353f;
+}
+body{
+    font-family: "Montserrat", serif;
+}
+.parent{
+    box-shadow: 0px 0px 5px 2px black;
+}
+input::placeholder{
+    color: rgb(255, 255, 255);
+}
+
+.main-color{
+    color: #17a2b8;
+}
+.w-90{
+
+    width: 90%;
+}
+
+button{
+    border: 2px solid #17a2b8;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+button:hover{
+    background-color: #17a2b8;
+    color: white;
+}
+
+.navbar-brand {
+    color: white !important;
+}
+
+
+.form-control::placeholder{
+color: aliceblue;
+}
+
+.form-control:focus{
+    background-color: #24353f;
+    color: white;
+}
+.form-control{
+    color: white;
+}
